@@ -1,8 +1,10 @@
 [package]
 name = "first-function"
 version = "0.1.0"
-authors = ["Tomasz Waszczyk <tomasz.waszczyk@relayr.io>"]
+authors = ["Tomasz Waszczyk <tomasz@waszczyk.com>"]
 edition = "2018"
+description = "First published crate"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
