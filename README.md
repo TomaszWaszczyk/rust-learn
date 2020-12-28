@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://doc.rust-lang.org/rust-by-example/index.html
+
 https://doc.rust-lang.org/stable/rust-by-example/hello/print/print_display.html
 
 https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
