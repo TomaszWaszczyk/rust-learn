@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://jrvidal.github.io/explaine.rs/
+
 https://doc.rust-lang.org/rust-by-example/index.html
 
 https://doc.rust-lang.org/stable/rust-by-example/hello/print/print_display.html
