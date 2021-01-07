@@ -1,5 +1,4 @@
-use traits::Tweet;
-use traits::Summary;
+use traits:: {Tweet, Summary};
 
 fn main() {
     println!("Hello, world!");
