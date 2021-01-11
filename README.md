@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://w3f.github.io/parachain-implementers-guide/
+
 Debug instructions: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
 
 https://jrvidal.github.io/explaine.rs/
