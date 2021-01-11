@@ -13,11 +13,13 @@ fn main() {
     let stringText = String::from("Tomek tests strings in Rust");
     let stringText_ref: &String = &stringText; 
 
-    passByValue("Tomek tests")
+    // borrowing
+    passByValue(stringText); // reference??
+
     // passByValue(text);
     // my_other_function("Tomek test")
 }
-
+// type vs memory
 fn passByValue(parameter: String) {
     println!("{}", parameter);
 }
