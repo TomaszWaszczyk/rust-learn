@@ -1,5 +1,8 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://doc.rust-lang.org/error-index.html#E0207
+
+
 https://w3f.github.io/parachain-implementers-guide/
 
 Debug instructions: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
