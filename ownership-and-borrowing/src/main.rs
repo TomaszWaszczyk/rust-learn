@@ -1,13 +1,21 @@
 mod ownership_and_borrowing;
 
 fn main() {
-    let _x = 1; // x owns 1 (1 is literal so is stored on a stack)
+    let _x = 1; // x owns "1" (1 is literal so is stored on a stack)
+    // each piece of data can have one owner at the rime
     // 1 is on a heap
     // let y = x;
 
     // scope
     {
         let _a = 10;
+        {
+            let s = String::from("String");
+            // let y =  s;
+            let y = &s; // borrowing, y is a reference to s
+
+            println!("{}", s);
+        }
     }
     // ==================================
 
