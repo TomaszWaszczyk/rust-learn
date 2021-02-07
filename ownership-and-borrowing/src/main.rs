@@ -1,7 +1,7 @@
 mod ownership_and_borrowing;
 
 fn main() {
-    let _x = 1; // x owns 1 
+    let _x = 1; // x owns 1 (1 is literal so is stored on a stack)
     // 1 is on a heap
     // let y = x;
 
