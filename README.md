@@ -23,4 +23,4 @@ https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html
 
 https://github.com/rust-lang/rustlings
 
-https://godbolt.org/z/hecxae
+Compiler explorer: https://godbolt.org/z/hecxae
