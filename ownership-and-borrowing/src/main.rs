@@ -14,7 +14,7 @@ fn main() {
             // let y =  s;
             let y = &s; // borrowing, y is a reference to s
 
-            println!("{}", s);
+            println!("{}", y);
         }
     }
     // ==================================
