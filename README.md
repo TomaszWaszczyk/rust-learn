@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://linuxhint.com/list_of_linux_syscalls/
+
 https://doc.rust-lang.org/error-index.html#E0207
 
 
@@ -20,3 +22,13 @@ https://www.dataschool.io/how-to-contribute-on-github/
 https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html
 
 https://github.com/rust-lang/rustlings
+
+Compiler explorer: https://godbolt.org/z/hecxae
+
+---
+
+https://doc.rust-lang.org/book/ch10-02-traits.html#traits-defining-shared-behavior
+
+https://doc.rust-lang.org/book/ch19-03-advanced-traits.html#specifying-placeholder-types-in-trait-definitions-with-associated-types
+
+https://doc.rust-lang.org/rust-by-example/generics/assoc_items/types.html
