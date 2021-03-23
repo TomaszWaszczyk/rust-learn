@@ -4,6 +4,7 @@ https://linuxhint.com/list_of_linux_syscalls/
 
 https://doc.rust-lang.org/error-index.html#E0207
 
+!!! https://www.cs.brandeis.edu/~cs146a/rust/doc-02-21-2015/book/crates-and-modules.html
 
 https://w3f.github.io/parachain-implementers-guide/
 

@@ -8,5 +8,13 @@ fn main() {
     println!("{:?}", v);
     // v.into_iter().map(|x| x + 1).rev().collect();
     println!("{:?}", v)
+    /*
+    https://doc.rust-lang.org/std/iter/struct.Map.html
+    #![allow(unused)]
+    fn main() {
+    let v: Vec<i32> = vec![1, 2, 3].into_iter().map(|x| x + 1).rev().collect();
+
+    assert_eq!(v, [4, 3, 2]);
+    } */
 }
     
