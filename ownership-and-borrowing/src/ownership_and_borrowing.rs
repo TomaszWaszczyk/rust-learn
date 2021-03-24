@@ -1,3 +1,4 @@
+/*
 use std::println;
 
 pub fn take(v: Vec<i32>){
@@ -16,3 +17,4 @@ pub fn borrow1(v: &Vec<i32>){
 pub fn borrow2(v: &Vec<i32>) {
     println!("{}", v[10] + v[11]);
 }
+*/

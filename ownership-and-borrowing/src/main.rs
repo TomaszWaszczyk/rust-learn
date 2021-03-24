@@ -39,7 +39,7 @@ fn main() {
     let first_name = "Tomek".to_string();
 
     say_first_name(first_name);
-    // say_first_name(first_name);// compiler complains
+    say_first_name(first_name);// compiler complains
 }
 
 fn say_first_name(_first_name: String) {
