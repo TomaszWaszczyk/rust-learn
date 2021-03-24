@@ -1,4 +1,5 @@
 use std::io;
+use std::process;
 
 fn main() {
     println!("Please enter a first number: ");
@@ -12,8 +13,9 @@ fn main() {
         Ok(val) => {
             a = val;
         }
-        Err(err) => {
+        Err(_err) => {
             println!("This is not a valid number");
+            process::exit(1); // exit with non zero value === error
         }
     };
 
@@ -27,7 +29,7 @@ fn main() {
         Ok(val) => {
             a = val;
         }
-        Err(err) => {
+        Err(_err) => {
             println!("This is not a valid number");
         }
     };
