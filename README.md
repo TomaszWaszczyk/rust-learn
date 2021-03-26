@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://serde.rs/
+
 https://linuxhint.com/list_of_linux_syscalls/
 
 https://doc.rust-lang.org/error-index.html#E0207
