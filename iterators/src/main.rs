@@ -9,6 +9,9 @@ fn main() {
 
     assert_eq!(None, iter.next());
 
+    iter.size_hint();
+    iter.count();
+
     // ???
     assert_eq!(None, iter.next());
     assert_eq!(None, iter.next());
