@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://github.com/ralfbiedert/cheats.rs
+
 https://serde.rs/
 
 https://linuxhint.com/list_of_linux_syscalls/
