@@ -1,9 +1,17 @@
+mod questions;
 
-fn main() {
-    println!("Hello, world!");
+
+fn questions() {
+    balanced("Test");
 }
 
+// O(n)
 fn balanced(input: &str) -> bool {
+
+    if input.len() == 1 {
+        return false;
+    }
+
     let mut stack: Vec<char> = vec![];
     for c in input.chars() {
         match c {
@@ -12,15 +20,12 @@ fn balanced(input: &str) -> bool {
                 ( Some('('), ')' ) => {}
                 ( Some('['), ']' ) => {}
                 ( Some('{'), '}' ) => {}
+                // You could just use `_ => return false` instead of `(_, _) => ...`
                 (_, _) => return false,
             },
             _ => {}
         }
     }
+    // One slight improvement is using `.is_empty()` instead of `.len() == 0`
     stack.len() == 0
-}
-
-#[test]
-fn test_balanced() {
-    assert_eq!(balanced("[]"), true);
 }
