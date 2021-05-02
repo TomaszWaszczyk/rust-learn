@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+`cargo clean -p <your_package_name>`
+
 https://github.com/ralfbiedert/cheats.rs
 
 https://serde.rs/
