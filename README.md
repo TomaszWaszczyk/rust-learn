@@ -2,6 +2,8 @@
 
 `cargo clean -p <your_package_name>`
 
+https://rust-lang-nursery.github.io/rust-cookbook/
+
 https://github.com/ralfbiedert/cheats.rs
 
 https://serde.rs/
