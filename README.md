@@ -1,5 +1,9 @@
 # Learn-Rust-by-Building-Real-Applications
 
+
+
+`cargo clippy` + https://github.com/rust-lang/rustfmt
+
 `cargo clean -p <your_package_name>`
 
 https://rust-lang-nursery.github.io/rust-cookbook/
