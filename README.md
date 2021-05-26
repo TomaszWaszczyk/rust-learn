@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://github.com/mre/idiomatic-rust
+
 https://research.exercism.io/experiment_solutions/a2d59fcea8cd42bf9e81937c831debe1
 
 `cargo clippy` + https://github.com/rust-lang/rustfmt
