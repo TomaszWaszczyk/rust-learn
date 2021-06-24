@@ -5,7 +5,11 @@ fn questions() {
     balanced("Test");
 }
 
-// O(n)
+/// O(n)
+/// Example of pattern matching and documentation a'la Rust lang
+/// ```
+/// balanced("pass your string here");
+/// ```
 fn balanced(input: &str) -> bool {
 
     if input.len() == 1 {

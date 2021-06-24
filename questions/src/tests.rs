@@ -1,5 +1,5 @@
 
-#[cfg(test)]
+#[cfg(test)] // enable command: "cargo test"
 mod tests {
     use super::*;
     use questions::balanced;
