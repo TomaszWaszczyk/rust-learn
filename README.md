@@ -1,5 +1,17 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://github.com/mre/idiomatic-rust
+
+https://research.exercism.io/experiment_solutions/a2d59fcea8cd42bf9e81937c831debe1
+
+`cargo clippy` + https://github.com/rust-lang/rustfmt
+
+`cargo clean -p <your_package_name>`
+
+https://rust-lang-nursery.github.io/rust-cookbook/
+
+https://github.com/ralfbiedert/cheats.rs
+
 https://serde.rs/
 
 https://linuxhint.com/list_of_linux_syscalls/
