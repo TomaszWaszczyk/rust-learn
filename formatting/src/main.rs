@@ -29,6 +29,8 @@ struct Color {
 }
 
 fn main() {
+    // print DEADBEEF - https://pl.wikipedia.org/wiki/0xDEADBEEF
+    println!("{:#X}", 0xDEADBEEFu32);
     for city in [
         City { name: "Dublin", lat: 53.347778, lon: -6.259722 },
         City { name: "Oslo", lat: 59.95, lon: 10.75 },
