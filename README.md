@@ -2,6 +2,8 @@
 
 https://github.com/mre/idiomatic-rust
 
+https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html
+
 https://research.exercism.io/experiment_solutions/a2d59fcea8cd42bf9e81937c831debe1
 
 `cargo clippy` + https://github.com/rust-lang/rustfmt
