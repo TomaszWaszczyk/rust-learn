@@ -12,6 +12,8 @@ https://research.exercism.io/experiment_solutions/a2d59fcea8cd42bf9e81937c831deb
 
 `cargo clean -p <your_package_name>`
 
+https://github.com/watchexec/cargo-watch
+
 https://rust-lang-nursery.github.io/rust-cookbook/
 
 https://github.com/ralfbiedert/cheats.rs
