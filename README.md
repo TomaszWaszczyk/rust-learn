@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+structs, vectors, iteration, Result, Option
+
 https://github.com/mre/idiomatic-rust
 
 https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html
