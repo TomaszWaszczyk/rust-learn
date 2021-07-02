@@ -4,6 +4,8 @@ fn main() {
 
     calculate_weight_on_mars(100.0);
     say_hello("Heeeloooooooooooooooooooooo");
+    // let s1 = String::new("hello1");
+    let s2 = String::from("hello2");
 }
 
 fn calculate_weight_on_mars(_weight: f32) -> f32 {
