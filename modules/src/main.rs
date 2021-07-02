@@ -1,5 +1,5 @@
 mod house {
-    const HOUSE_NUMBER: u32 = 56;
+    pub const HOUSE_NUMBER: u32 = 56;
 
     pub mod bedroom1 {
         pub fn is_light_on() -> bool {
@@ -14,10 +14,11 @@ mod house {
     }
 }
 
-use crate::house::{bedroom1, bedroom2};
+use crate::house::{bedroom1, bedroom2, HOUSE_NUMBER};
 
 fn main() {
     println!("Hello, world!");
+    println!("{}", HOUSE_NUMBER);
     println!("{}", bedroom1::is_light_on());
     println!("{}", bedroom2::is_light_on());
 }
