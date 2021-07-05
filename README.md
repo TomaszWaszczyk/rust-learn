@@ -1,5 +1,9 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://docs.rs/
+
+https://cheats.rs/
+
 structs, vectors, iteration, Result, Option
 
 https://github.com/mre/idiomatic-rust
