@@ -1,4 +1,3 @@
-
 fn main() {
     let numbers = [1, 9, -2, 0, 23, 20, -7, 13, 37, 20, 56, -18, 20, 3];
     let mut max: i32;
@@ -9,7 +8,7 @@ fn main() {
     min = numbers[0];
     mean = 0.0;
 
-    for &num in numbers.iter(){
+    for &num in numbers.iter() {
         if num > max {
             max = num;
         } else if num < min {
@@ -17,7 +16,6 @@ fn main() {
         }
         mean += num as f64;
     }
-
     mean /= numbers.len() as f64;
 
     assert_eq!(max, 56);
