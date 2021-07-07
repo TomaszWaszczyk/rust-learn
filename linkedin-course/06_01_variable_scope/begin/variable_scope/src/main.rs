@@ -3,5 +3,5 @@ fn main() {
     let planet = "Earth";
     println!("planet is {}", planet);
     }
-    println!("planet is {}", planet);
+    // println!("planet is {}", planet);
 }
