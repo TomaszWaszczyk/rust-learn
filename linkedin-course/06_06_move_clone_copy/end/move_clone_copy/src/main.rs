@@ -1,4 +1,6 @@
 fn main() {
+    // integer stack based
+    // string heap based
     let outer_planet: i32;
     {
         let mut inner_planet = 1;

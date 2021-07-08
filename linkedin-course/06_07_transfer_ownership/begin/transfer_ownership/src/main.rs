@@ -1,4 +1,6 @@
 fn main() {
+    // stack based integer
+    // heap based string
     let rocket_fuel = 1;
     process_fuel(rocket_fuel);
     println!("rocket_fuel is {}", rocket_fuel);
