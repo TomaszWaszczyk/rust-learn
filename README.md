@@ -4,6 +4,8 @@ https://docs.rs/
 
 https://cheats.rs/
 
+https://rust-lang.github.io/async-book/
+
 structs, vectors, iteration, Result, Option
 
 https://github.com/mre/idiomatic-rust
