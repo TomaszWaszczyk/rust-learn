@@ -4,6 +4,10 @@ https://docs.rs/
 
 https://cheats.rs/
 
+https://www.beginrust.com/
+
+https://www.snoyman.com/blog/2019/12/rust-crash-course-08-down-dirty-future/
+
 https://rust-lang.github.io/async-book/
 
 structs, vectors, iteration, Result, Option
