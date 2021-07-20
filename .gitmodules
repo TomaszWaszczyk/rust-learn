@@ -1,0 +1,3 @@
+[submodule "rustlings"]
+	path = rustlings
+	url = git@github.com:rust-lang/rustlings.git
