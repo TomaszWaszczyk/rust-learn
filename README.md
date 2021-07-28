@@ -63,3 +63,7 @@ https://doc.rust-lang.org/book/ch10-02-traits.html#traits-defining-shared-behavi
 https://doc.rust-lang.org/book/ch19-03-advanced-traits.html#specifying-placeholder-types-in-trait-definitions-with-associated-types
 
 https://doc.rust-lang.org/rust-by-example/generics/assoc_items/types.html
+
+# UI in Rust
+
+https://github.com/emilk/egui
