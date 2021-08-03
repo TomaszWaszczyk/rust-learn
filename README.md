@@ -8,6 +8,8 @@ https://www.beginrust.com/
 
 https://www.snoyman.com/blog/2019/12/rust-crash-course-08-down-dirty-future/
 
+https://rustwasm.github.io/book/game-of-life/hello-world.html
+
 https://rust-lang.github.io/async-book/
 
 structs, vectors, iteration, Result, Option
