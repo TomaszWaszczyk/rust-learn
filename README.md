@@ -20,6 +20,10 @@ https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html
 
 https://research.exercism.io/experiment_solutions/a2d59fcea8cd42bf9e81937c831debe1
 
+https://github.com/timvisee/advent-of-code-2020
+
+https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/?source=learn
+
 `cargo clippy` + https://github.com/rust-lang/rustfmt
 
 `cargo clean -p <your_package_name>`
