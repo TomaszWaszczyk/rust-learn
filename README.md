@@ -8,6 +8,8 @@ https://www.beginrust.com/
 
 https://www.snoyman.com/blog/2019/12/rust-crash-course-08-down-dirty-future/
 
+https://rustwasm.github.io/book/game-of-life/hello-world.html
+
 https://rust-lang.github.io/async-book/
 
 structs, vectors, iteration, Result, Option
@@ -17,6 +19,10 @@ https://github.com/mre/idiomatic-rust
 https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html
 
 https://research.exercism.io/experiment_solutions/a2d59fcea8cd42bf9e81937c831debe1
+
+https://github.com/timvisee/advent-of-code-2020
+
+https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/?source=learn
 
 `cargo clippy` + https://github.com/rust-lang/rustfmt
 
@@ -63,3 +69,7 @@ https://doc.rust-lang.org/book/ch10-02-traits.html#traits-defining-shared-behavi
 https://doc.rust-lang.org/book/ch19-03-advanced-traits.html#specifying-placeholder-types-in-trait-definitions-with-associated-types
 
 https://doc.rust-lang.org/rust-by-example/generics/assoc_items/types.html
+
+# UI in Rust
+
+https://github.com/emilk/egui
