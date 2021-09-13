@@ -6,6 +6,8 @@ https://cheats.rs/
 
 https://www.beginrust.com/
 
+https://rustacean-principles.netlify.app/
+
 https://www.snoyman.com/blog/2019/12/rust-crash-course-08-down-dirty-future/
 
 https://rustwasm.github.io/book/game-of-life/hello-world.html
