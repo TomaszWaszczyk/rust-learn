@@ -4,6 +4,8 @@ https://docs.rs/
 
 https://cheats.rs/
 
+https://github.com/mre/idiomatic-rust
+
 UI: https://github.com/yewstack/yew
 
 https://www.beginrust.com/
