@@ -79,3 +79,7 @@ https://doc.rust-lang.org/rust-by-example/generics/assoc_items/types.html
 # UI in Rust
 
 https://github.com/emilk/egui
+
+# Questions
+
+1. If I have impl X for Y and impl<T: X> X for &T , why would I still need impl X for &Y ? And why do I only see this when using it in a tuple? What am I missing?
