@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://asecuritysite.com/rust/rust_ed25519
+
 https://docs.rs/
 
 https://cheats.rs/
