@@ -2,6 +2,8 @@
 
 https://asecuritysite.com/rust/rust_ed25519
 
+https://github.com/rust-in-blockchain/awesome-blockchain-rust
+
 https://docs.rs/
 
 https://cheats.rs/
