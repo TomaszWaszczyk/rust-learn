@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://github.com/rust-lang/this-week-in-rust
+
 https://asecuritysite.com/rust/rust_ed25519
 
 https://github.com/rust-in-blockchain/awesome-blockchain-rust
