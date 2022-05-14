@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://github.com/ctjhoa/rust-learning
+
 https://github.com/rust-lang/this-week-in-rust
 
 https://asecuritysite.com/rust/rust_ed25519
