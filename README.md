@@ -1,4 +1,17 @@
 # Learn-Rust-by-Building-Real-Applications
+```
+char* a = …;
+int64_t i = *reinterpret_cast<uint64_t*>(a);
+
+Is undefined behavior.
+But
+
+int64_t i = …
+char* a = reinterpret_cast<char*>(&i);
+
+is perfectly fine?
+What is reinterpret_cast even for?!?
+```
 
 https://github.com/ctjhoa/rust-learning
 
