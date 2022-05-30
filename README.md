@@ -13,6 +13,8 @@ is perfectly fine?
 What is reinterpret_cast even for?!?
 ```
 
+https://github.com/TheAlgorithms/Rust
+
 https://github.com/ctjhoa/rust-learning
 
 https://github.com/pretzelhammer/rust-blog
