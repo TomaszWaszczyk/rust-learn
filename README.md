@@ -12,6 +12,21 @@ char* a = reinterpret_cast<char*>(&i);
 is perfectly fine?
 What is reinterpret_cast even for?!?
 ```
+```
+https://github.com/rust-lang/rustlings
+
+For now, we recommend that you start by reviewing the Rust Book (Chapters 1-11, as well as Chapter 19), with a special focus on these topics:
+
+Primitive Data Types (Chapter 3.2)
+Structs (Chapter 5) 
+Enums and matching (Chapter 6)
+If & match, For & iterators (Chapter 6)
+Modules, crates and file layouts (Chapter 7)
+Generics, Types and Traits (Chapter 10)
+Visibility (Chapter 10)
+Testing (Chapter 11)
+Macros (Chapter 19.5)
+```
 
 https://github.com/TheAlgorithms/Rust
 
