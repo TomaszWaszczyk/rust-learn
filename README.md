@@ -12,6 +12,7 @@ char* a = reinterpret_cast<char*>(&i);
 is perfectly fine?
 What is reinterpret_cast even for?!?
 ```
+```String::with_capacity(nb_of_bytes)```
 ```
 https://github.com/rust-lang/rustlings
 
