@@ -28,6 +28,11 @@ Visibility (Chapter 10)
 Testing (Chapter 11)
 Macros (Chapter 19.5)
 ```
+https://doc.rust-lang.org/1.0.0/style/ownership/builders.html
+https://doc.rust-lang.org/std/slice/
+https://manishearth.github.io/blog/2015/05/17/the-problem-with-shared-mutability/
+https://github.com/rust-lang/rfcs/issues/3066
+
 
 https://github.com/TheAlgorithms/Rust
 
