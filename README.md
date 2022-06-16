@@ -1,4 +1,39 @@
 # Learn-Rust-by-Building-Real-Applications
+```
+char* a = …;
+int64_t i = *reinterpret_cast<uint64_t*>(a);
+
+Is undefined behavior.
+But
+
+int64_t i = …
+char* a = reinterpret_cast<char*>(&i);
+
+is perfectly fine?
+What is reinterpret_cast even for?!?
+```
+```String::with_capacity(nb_of_bytes)```
+```
+https://github.com/rust-lang/rustlings
+
+For now, we recommend that you start by reviewing the Rust Book (Chapters 1-11, as well as Chapter 19), with a special focus on these topics:
+
+Primitive Data Types (Chapter 3.2)
+Structs (Chapter 5) 
+Enums and matching (Chapter 6)
+If & match, For & iterators (Chapter 6)
+Modules, crates and file layouts (Chapter 7)
+Generics, Types and Traits (Chapter 10)
+Visibility (Chapter 10)
+Testing (Chapter 11)
+Macros (Chapter 19.5)
+```
+
+https://github.com/TheAlgorithms/Rust
+
+https://github.com/ctjhoa/rust-learning
+
+https://github.com/pretzelhammer/rust-blog
 
 https://github.com/rust-lang/this-week-in-rust
 
