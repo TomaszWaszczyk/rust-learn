@@ -16,6 +16,8 @@ What is reinterpret_cast even for?!?
 ```
 https://github.com/rust-lang/rustlings
 
+https://blog.iany.me/2019/02/rust-cell-and-refcell/
+
 For now, we recommend that you start by reviewing the Rust Book (Chapters 1-11, as well as Chapter 19), with a special focus on these topics:
 
 Primitive Data Types (Chapter 3.2)
