@@ -30,6 +30,14 @@ Visibility (Chapter 10)
 Testing (Chapter 11)
 Macros (Chapter 19.5)
 ```
+
+1) The Rust Book
+2) The Rust Wasm Book
+3) Udemy: Ultimate Rust Crash Course
+4) Educative: The Ultimate Guide to Rust Programming
+5) Zero To Mastery: Rust Programming: The Complete Developer's Guide
+
+
 https://d3m3vilurr.gitbooks.io/the-unsafe-rust-programming-language/content/uninitialized.html
 https://doc.rust-lang.org/1.0.0/style/ownership/builders.html
 https://doc.rust-lang.org/std/slice/
