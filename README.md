@@ -44,6 +44,7 @@ https://doc.rust-lang.org/std/slice/
 https://manishearth.github.io/blog/2015/05/17/the-problem-with-shared-mutability/
 https://github.com/rust-lang/rfcs/issues/3066
 
+https://www.possiblerust.com/pattern/non-generic-inner-functions
 
 https://github.com/TheAlgorithms/Rust
 
