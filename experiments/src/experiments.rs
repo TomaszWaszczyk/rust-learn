@@ -10,17 +10,17 @@
 fn bunch_of_numbers() -> Vec<u32> {
     let mut nums = Vec::new();
     for i in 0..10 {
-        num.push(i);
+        num.push(i); //(re-)allocation
     }
-    nums
+    nums //move
 }
 
 fn main() {
-    let nums = bunch_of_numbers();
+    let nums = bunch_of_numbers(); //obtain ownership
 
     match nums.last() {
         Some(&0) => println!("Last number is 0"),
         Some(n) => println!("Last number is {}", n),
         None => println!("No number was found"),
     }
-}
+} //deallocation
