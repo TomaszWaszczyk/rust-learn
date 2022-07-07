@@ -35,5 +35,5 @@ fn main() {
         r = &x;             //  |        |
     }                       // -+        |
                             //           |
-    println!("r: {}", r);   //           |
+    println!("r: {}", r);   //           | dangling reference
 }                           // ----------+
