@@ -3,7 +3,6 @@ fn main() {
     let var: u32 = 4;
     increment(var);
 
-
     println!("The value of a variable is: {}", var);
 }
 // the ownership is not transfered, is copied(!!!!!!!!)
