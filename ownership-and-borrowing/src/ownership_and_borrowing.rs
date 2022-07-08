@@ -18,3 +18,28 @@ pub fn borrow2(v: &Vec<i32>) {
     println!("{}", v[10] + v[11]);
 }
 */
+
+
+// i need to to be aware of ownership - coping or moving ownership
+#[derive(Debug)]
+pub struct Point {
+    x: isize,
+    y: isize,
+}
+
+fn sum(point: &mut Point) -> isize {
+    point.x *= 2;
+    point.x + point.y
+}
+
+fn square(n: isize) -> isize {
+    n * n
+}
+
+fn main() {
+    let a: isize = 10;
+    let b: isize = a;
+    let c: isize = square(a);
+
+    println!("The a variable is equal to {}", a);
+}
