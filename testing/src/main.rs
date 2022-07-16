@@ -1,12 +1,20 @@
+
+
 fn main() {
 
-    let var: u32 = 4;
-    increment(var);
-
-    println!("The value of a variable is: {}", var);
 }
-// the ownership is not transfered, is copied(!!!!!!!!)
-fn increment(mut var: u32) -> u32 {
-    var += 1;
-    var
+
+pub fn greeting(name: &str) -> String {
+    format!("Hello {}", name)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn greeting_contains_name() {
+        let result= greeting("Tomek");
+        assert!(result.contains("Tomek"));
+    }
 }
