@@ -4,6 +4,7 @@ extern crate schnorrkel;
 use merlin::Transcript;
 use schnorrkel::{Keypair, PublicKey, vrf::{VRFInOut, VRFPreOut, VRFProof}};
 use rand::Rng;
+
 const NUM_DRAWS : u8 = 8;
 const NUM_CARDS : u16 = 52;
 
@@ -69,7 +70,6 @@ fn main(){
 
     let table_cards = reveal_cards(&cards, &table.public, VRF_seed);
 
-
     println!("Cards on the table are: {:?}", table_cards);
 
     let table_sum: u16 = table_cards.iter().sum();
@@ -78,16 +78,16 @@ fn main(){
 
     players.iter().for_each(|player| {
         let player_cards = reveal_cards(&player.cards, &player.keypair.public, VRF_seed);
-        println!("Player with PK: {:?} has cards: {:?}", player.keypair.public.to_bytes(), player_cards);
+        println!("Player with public key: {:?} has cards: {:?}", player.keypair.public.to_bytes(), player_cards);
 
         let sum: u16 = player_cards.iter().sum::<u16>();
-        
+
         let player_sum = table_sum + sum;
-        
         if highest_score.0 < player_sum {
             highest_score = (player_sum, &player.keypair.public);
         }
     });
+
     println!(
         "Player with public key: {:?} is a winner with the score {}. He wins ${}",
         highest_score.1.to_bytes(),
