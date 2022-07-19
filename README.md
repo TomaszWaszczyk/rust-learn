@@ -1,4 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
+
+https://github.com/vandadnp/rust-tips-and-tricks/tree/main/tipsandtricks
+
 ```
 char* a = …;
 int64_t i = *reinterpret_cast<uint64_t*>(a);
