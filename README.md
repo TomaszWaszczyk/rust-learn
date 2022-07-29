@@ -6,7 +6,7 @@ https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-reg
 
 `killall cargo`
 
-`cargo sweet`
+https://github.com/holmgr/cargo-sweep, i will normally run `cargo sweep -r -t 0` in my github folder regularly
 
 ```
 char* a = …;
