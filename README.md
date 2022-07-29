@@ -7,6 +7,7 @@ https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-reg
 `killall cargo`
 
 https://github.com/holmgr/cargo-sweep, i will normally run `cargo sweep -r -t 0` in my github folder regularly
+<!-- in my github folder regularly, especially when i update rust, and all the old builds are useless -->
 
 ```
 char* a = …;
