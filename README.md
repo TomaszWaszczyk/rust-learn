@@ -4,6 +4,10 @@ https://github.com/vandadnp/rust-tips-and-tricks/tree/main/tipsandtricks
 
 https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/
 
+`killall cargo`
+
+`cargo sweet`
+
 ```
 char* a = …;
 int64_t i = *reinterpret_cast<uint64_t*>(a);
