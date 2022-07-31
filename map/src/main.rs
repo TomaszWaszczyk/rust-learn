@@ -7,7 +7,7 @@ fn main() {
 
     println!("{:?}", v);
     // v.into_iter().map(|x| x + 1).rev().collect();
-    println!("{:?}", v)
+    println!("{:?}", v);
     /*
     https://doc.rust-lang.org/std/iter/struct.Map.html
     #![allow(unused)]
@@ -16,5 +16,11 @@ fn main() {
 
     assert_eq!(v, [4, 3, 2]);
     } */
-}
+
+    let slice = ['l', 'i', 'n', 'u', 'k', 's'];
     
+    for window in slice.windows(2) {
+        println!{"[{}, {}]", window[0], window[1]};
+    }
+
+}
