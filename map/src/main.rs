@@ -20,7 +20,7 @@ fn main() {
     let slice = ['l', 'i', 'n', 'u', 'k', 's'];
     
     for window in slice.windows(2) {
-        println!{"[{}, {}]", window[0], window[1]};
+        let _ = &println!{"[{}, {}]", window[0], window[1]};
     }
 
 }
