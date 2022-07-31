@@ -2,6 +2,13 @@
 
 https://github.com/vandadnp/rust-tips-and-tricks/tree/main/tipsandtricks
 
+https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/
+
+`killall cargo`
+
+https://github.com/holmgr/cargo-sweep, i will normally run `cargo sweep -r -t 0` in my github folder regularly
+<!-- in my github folder regularly, especially when i update rust, and all the old builds are useless -->
+
 ```
 char* a = …;
 int64_t i = *reinterpret_cast<uint64_t*>(a);
