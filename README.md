@@ -1,5 +1,7 @@
 # Learn-Rust-by-Building-Real-Applications
 
+https://github.com/google/evcxr
+
 https://dtolnay.github.io/rust-quiz
 
 https://github.com/vandadnp/rust-tips-and-tricks/tree/main/tipsandtricks
