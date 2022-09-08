@@ -1,4 +1,5 @@
 //! Drawing cards using VRFs
+// unpad(pad(x)) = x
 
 extern crate schnorrkel;
 use merlin::Transcript;
