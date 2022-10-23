@@ -1,7 +1,5 @@
-fn main() {
-    println!("Hello, world!");
 
-    
+pub fn map() {
     let v: Vec<i32> = vec![1,2,34,5].into_iter().map(|x| x + 1).rev().collect();
 
 
@@ -22,5 +20,4 @@ fn main() {
     for window in slice.windows(2) {
         let _ = &println!{"[{}, {}]", window[0], window[1]};
     }
-
 }
