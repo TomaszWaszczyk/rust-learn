@@ -8,6 +8,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: tomaszwaszczyk/rust-learn/master@map
+      - uses: tomaszwaszczyk/rust-learn/master
         with:
           args: cd integration-test && cargo fmt -- --check && cargo clippy -- -Dwarnings && cargo test
