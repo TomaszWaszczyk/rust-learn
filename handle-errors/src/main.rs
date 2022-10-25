@@ -1,7 +1,10 @@
 mod handle_errors;
 mod experiments;
+mod xor;
+
 
 fn main() {
-    handle_errors::handle_errors();
-    experiments::plus_five(1);
+    xor::xor();
+    // handle_errors::handle_errors();
+    // experiments::plus_five(1);
 }
