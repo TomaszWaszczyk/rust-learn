@@ -8,6 +8,8 @@ https://github.com/vandadnp/rust-tips-and-tricks/tree/main/tipsandtricks
 
 https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/
 
+https://practice.rs/smart-pointers/box.html
+
 `killall cargo`
 
 https://github.com/holmgr/cargo-sweep, i will normally run `cargo sweep -r -t 0` in my github folder regularly

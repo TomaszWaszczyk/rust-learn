@@ -2,6 +2,7 @@ mod handle_errors;
 mod experiments;
 mod xor;
 mod iterators;
+mod box_fn;
 
 
 fn main() {

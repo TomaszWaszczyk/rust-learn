@@ -1,9 +1,9 @@
-fn test(n: &i32) {
+pub fn test(n: &i32) {
     println!("{}", n);
 }
 
 
-fn main() {
+pub fn box_fn() {
     // let b = Box::new(5);
     let b = Box::new(Box::new(5));
     println!("b = {}", b);
