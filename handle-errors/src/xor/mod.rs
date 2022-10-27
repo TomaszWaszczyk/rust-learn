@@ -1,3 +1,6 @@
+#![allow(dead_code)]
+#![allow(unused_variables)]
+
 
 use hex::FromHex;
 use rustc_serialize::hex::ToHex;

@@ -1,3 +1,7 @@
+#![allow(dead_code)]
+#![allow(unused_variables)]
+
+
 use std::io;
 use std::process;
 
@@ -7,7 +11,7 @@ pub fn handle_errors() {
     let mut first = String::new();
     io::stdin().read_line(&mut first).unwrap(); // `unwrap` is good for dev, not prod!
 
-    let mut a: u32 = first.trim().parse().expect("This is not a valid number"); // TO_LEARN: unwrap() vs expect()
+    let mut a: u32 = first.trim().parse().expect("This is not a valid number"); // TOLEARN: unwrap() vs expect()
 
     match first.trim().parse() {
         Ok(val) => {
@@ -22,9 +26,10 @@ pub fn handle_errors() {
     println!("Please enter a second number: ");
 
     let mut second = String::new();
+    #[allow(dead_code)]
     io::stdin().read_line(&mut second);
 
-    let mut b: u32 = second.trim().parse().expect("This is not a valid number");
+    let b: u32 = second.trim().parse().expect("This is not a valid number");
     match second.trim().parse() {
         Ok(val) => {
             a = val;
