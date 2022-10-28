@@ -78,8 +78,6 @@ https://docs.rs/
 
 https://cheats.rs/
 
-https://github.com/mre/idiomatic-rust
-
 UI: https://github.com/yewstack/yew
 
 https://www.beginrust.com/
@@ -91,10 +89,6 @@ https://www.snoyman.com/blog/2019/12/rust-crash-course-08-down-dirty-future/
 https://rustwasm.github.io/book/game-of-life/hello-world.html
 
 https://rust-lang.github.io/async-book/
-
-structs, vectors, iteration, Result, Option
-
-https://github.com/mre/idiomatic-rust
 
 https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html
 
@@ -138,8 +132,6 @@ https://www.dataschool.io/how-to-contribute-on-github/
 
 https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html
 
-https://github.com/rust-lang/rustlings
-
 Compiler explorer: https://godbolt.org/z/hecxae
 
 ---
@@ -153,71 +145,3 @@ https://doc.rust-lang.org/rust-by-example/generics/assoc_items/types.html
 # UI in Rust
 
 https://github.com/emilk/egui
-
-# Questions
-
-1. If I have impl X for Y and impl<T: X> X for &T , why would I still need impl X for &Y ? And why do I only see this when using it in a tuple? What am I missing?
-
-```
-pub struct OpaqueHolder(str);
-
-impl OpaqueHolder {
-    fn from_borrowed(s: &str) -> &Self {
-        unsafe { std::mem::transmute(s) }
-    }
-    
-    fn as_str(&self) -> &str {
-        &self.0
-    }
-}
-
-fn make_opaque() -> &'static OpaqueHolder {
-    &OpaqueHolder::from_borrowed("OpaqueHolder")
-}
-
-
-trait Encoder {
-    fn as_encoded_string(&self) -> String;
-
-    fn encode(&self) -> String {
-        self.as_encoded_string()
-    }
-}
-
-impl Encoder for OpaqueHolder {
-    fn as_encoded_string(&self) -> String {
-        return self.as_str().to_string()
-    }
-}
-
-impl<T: Encoder> Encoder for &T {
-    fn as_encoded_string(&self) -> String {
-        (&**self).as_encoded_string()
-    }
-}
-
-// THIS SHOULDNT BE NECESSARY< BUT FOR SOME REASON IS... WHY?
-impl Encoder for &OpaqueHolder {
-    fn as_encoded_string(&self) -> String {
-        return self.as_str().to_string()
-    }
-}
-
-
-impl<A: Encoder, B: Encoder> Encoder for (A, B) {
-    fn as_encoded_string(&self) -> String {
-        [
-            self.0.as_encoded_string(),
-            self.1.as_encoded_string(),
-        ].concat()
-    }
-}
-
-
-fn main() {
-    // this works w/o the specific &OpaqueHolder
-    println!("{:}", make_opaque().encode());
-    // only shows up on the tuple
-    println!("{:}", (make_opaque(), make_opaque()).encode());
-}
-```

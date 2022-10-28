@@ -7,3 +7,7 @@
 [submodule "rust-learning"]
 	path = rust-learning
 	url = git@github.com:ctjhoa/rust-learning.git
+[submodule "rust-learning"]
+	path = rust-learning
+	url = git@github.com:mre/idiomatic-rust.git
+
