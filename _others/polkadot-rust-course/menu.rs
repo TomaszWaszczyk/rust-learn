@@ -1,13 +1,13 @@
 use std::io;
 use std::collection::{BTreeMap};
 
-fn take_number -> isize {
+fn take_number() -> isize {
     let mut number = String::new();
     io::stdin().read_line(&mut number).expect("error");
     number.trim().parse::<isize>().unwrap()
 }
 
-fn take_string -> String {
+fn take_string() -> String {
     let mut string = String::new();
     io::stdin().read_line(&mut number).expect("error");
     string.trim().parse::<isize>().unwrap()
@@ -25,7 +25,7 @@ fn main(){
         if i == 0 {
             person = substring
         } else {
-            dictionary.entry(substring).or_insert(vec[]).push(person);
+            dictionary.entry(substring).or_insert(vec![]).push(person);
         }
 
         }
