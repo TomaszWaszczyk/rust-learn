@@ -8,8 +8,6 @@ https://github.com/vandadnp/rust-tips-and-tricks/tree/main/tipsandtricks
 
 https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/
 
-https://practice.rs/smart-pointers/box.html
-
 https://github.com/holmgr/cargo-sweep, i will normally run `cargo sweep -r -t 0` in my github folder regularly
 <!-- in my github folder regularly, especially when i update rust, and all the old builds are useless -->
 
@@ -26,7 +24,7 @@ Generics, Types and Traits (Chapter 10)
 Visibility (Chapter 10)
 Testing (Chapter 11)
 Macros (Chapter 19.5)
-```
+
 
 1) The Rust Book
 2) The Rust Wasm Book
@@ -71,10 +69,6 @@ https://github.com/timvisee/advent-of-code-2020
 
 https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/?source=learn
 
-`cargo clippy` + https://github.com/rust-lang/rustfmt
-
-`cargo clean -p <your_package_name>`
-
 https://github.com/watchexec/cargo-watch -> `cargo watch -x 'run'`
 
 https://rust-lang-nursery.github.io/rust-cookbook/
@@ -103,13 +97,13 @@ https://www.dataschool.io/how-to-contribute-on-github/
 
 Compiler explorer: https://godbolt.org/z/hecxae
 
----
-
-https://doc.rust-lang.org/book/ch10-02-traits.html#traits-defining-shared-behavior
-
-https://doc.rust-lang.org/book/ch19-03-advanced-traits.html#specifying-placeholder-types-in-trait-definitions-with-associated-types
-
 https://doc.rust-lang.org/rust-by-example/generics/assoc_items/types.html
+
+# Commands
+
+`cargo clippy` + https://github.com/rust-lang/rustfmt
+
+`cargo clean -p <your_package_name>`
 
 # UI in Rust
 
