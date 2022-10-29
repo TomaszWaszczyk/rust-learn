@@ -54,8 +54,6 @@ https://rust-lang.github.io/async-book/
 
 https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html
 
-https://research.exercism.io/experiment_solutions/a2d59fcea8cd42bf9e81937c831debe1
-
 https://github.com/timvisee/advent-of-code-2020
 
 https://rust-lang-nursery.github.io/rust-cookbook/
@@ -82,8 +80,6 @@ https://doc.rust-lang.org/stable/rust-by-example/hello/print/print_display.html
 
 https://www.dataschool.io/how-to-contribute-on-github/
 
-Compiler explorer: https://godbolt.org/z/hecxae
-
 https://doc.rust-lang.org/rust-by-example/generics/assoc_items/types.html
 
 # Commands
@@ -101,3 +97,9 @@ https://github.com/watchexec/cargo-watch -> `cargo watch -x 'run'`
 https://github.com/emilk/egui
 
 https://github.com/yewstack/yew
+
+# REPL and tools
+
+https://github.com/google/evcxr
+
+Compiler explorer: https://godbolt.org/z/hecxae
