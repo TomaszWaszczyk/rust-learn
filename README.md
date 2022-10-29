@@ -8,12 +8,7 @@ https://github.com/vandadnp/rust-tips-and-tricks/tree/main/tipsandtricks
 
 https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/
 
-https://github.com/holmgr/cargo-sweep, i will normally run `cargo sweep -r -t 0` in my github folder regularly
-<!-- in my github folder regularly, especially when i update rust, and all the old builds are useless -->
-
-https://blog.iany.me/2019/02/rust-cell-and-refcell/
-
-For now, we recommend that you start by reviewing the Rust Book (Chapters 1-11, as well as Chapter 19), with a special focus on these topics:
+<!-- For now, we recommend that you start by reviewing the Rust Book (Chapters 1-11, as well as Chapter 19), with a special focus on these topics:
 
 Primitive Data Types (Chapter 3.2)
 Structs (Chapter 5) 
@@ -25,17 +20,15 @@ Visibility (Chapter 10)
 Testing (Chapter 11)
 Macros (Chapter 19.5)
 
-
 1) The Rust Book
 2) The Rust Wasm Book
 3) Udemy: Ultimate Rust Crash Course
 4) Educative: The Ultimate Guide to Rust Programming
-5) Zero To Mastery: Rust Programming: The Complete Developer's Guide
+5) Zero To Mastery: Rust Programming: The Complete Developer's Guide -->
 
 https://d3m3vilurr.gitbooks.io/the-unsafe-rust-programming-language/content/uninitialized.html
 https://doc.rust-lang.org/1.0.0/style/ownership/builders.html
 https://manishearth.github.io/blog/2015/05/17/the-problem-with-shared-mutability/
-https://github.com/rust-lang/rfcs/issues/3066
 
 https://www.possiblerust.com/pattern/non-generic-inner-functions
 
@@ -66,10 +59,6 @@ https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html
 https://research.exercism.io/experiment_solutions/a2d59fcea8cd42bf9e81937c831debe1
 
 https://github.com/timvisee/advent-of-code-2020
-
-https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/?source=learn
-
-https://github.com/watchexec/cargo-watch -> `cargo watch -x 'run'`
 
 https://rust-lang-nursery.github.io/rust-cookbook/
 
@@ -104,6 +93,10 @@ https://doc.rust-lang.org/rust-by-example/generics/assoc_items/types.html
 `cargo clippy` + https://github.com/rust-lang/rustfmt
 
 `cargo clean -p <your_package_name>`
+
+https://github.com/watchexec/cargo-watch -> `cargo watch -x 'run'`
+
+`cargo sweep -r -t 0` - https://github.com/holmgr/cargo-sweep - in my github folder regularly, especially when i update rust, and all the old builds are useless
 
 # UI in Rust
 
