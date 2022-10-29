@@ -1,7 +1,3 @@
-# Learn-Rust-by-Building-Real-Applications
-
-https://github.com/google/evcxr
-
 https://github.com/vandadnp/rust-tips-and-tricks/tree/main/tipsandtricks
 
 https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/
