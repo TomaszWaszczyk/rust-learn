@@ -10,27 +10,8 @@ https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-reg
 
 https://practice.rs/smart-pointers/box.html
 
-`killall cargo`
-
 https://github.com/holmgr/cargo-sweep, i will normally run `cargo sweep -r -t 0` in my github folder regularly
 <!-- in my github folder regularly, especially when i update rust, and all the old builds are useless -->
-
-```
-char* a = …;
-int64_t i = *reinterpret_cast<uint64_t*>(a);
-
-Is undefined behavior.
-But
-
-int64_t i = …
-char* a = reinterpret_cast<char*>(&i);
-
-is perfectly fine?
-What is reinterpret_cast even for?!?
-```
-```String::with_capacity(nb_of_bytes)```
-```
-https://github.com/rust-lang/rustlings
 
 https://blog.iany.me/2019/02/rust-cell-and-refcell/
 
@@ -53,10 +34,8 @@ Macros (Chapter 19.5)
 4) Educative: The Ultimate Guide to Rust Programming
 5) Zero To Mastery: Rust Programming: The Complete Developer's Guide
 
-
 https://d3m3vilurr.gitbooks.io/the-unsafe-rust-programming-language/content/uninitialized.html
 https://doc.rust-lang.org/1.0.0/style/ownership/builders.html
-https://doc.rust-lang.org/std/slice/
 https://manishearth.github.io/blog/2015/05/17/the-problem-with-shared-mutability/
 https://github.com/rust-lang/rfcs/issues/3066
 
@@ -66,19 +45,13 @@ https://github.com/TheAlgorithms/Rust
 
 https://github.com/ctjhoa/rust-learning
 
-https://github.com/pretzelhammer/rust-blog
-
 https://github.com/rust-lang/this-week-in-rust
-
-https://asecuritysite.com/rust/rust_ed25519
 
 https://github.com/rust-in-blockchain/awesome-blockchain-rust
 
 https://docs.rs/
 
 https://cheats.rs/
-
-UI: https://github.com/yewstack/yew
 
 https://www.beginrust.com/
 
@@ -126,11 +99,7 @@ https://doc.rust-lang.org/rust-by-example/index.html
 
 https://doc.rust-lang.org/stable/rust-by-example/hello/print/print_display.html
 
-https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
-
 https://www.dataschool.io/how-to-contribute-on-github/
-
-https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html
 
 Compiler explorer: https://godbolt.org/z/hecxae
 
@@ -145,3 +114,5 @@ https://doc.rust-lang.org/rust-by-example/generics/assoc_items/types.html
 # UI in Rust
 
 https://github.com/emilk/egui
+
+https://github.com/yewstack/yew
