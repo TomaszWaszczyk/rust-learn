@@ -1,3 +1,4 @@
+// https://doc.rust-lang.org/rust-by-example/error/option_unwrap.html
 // The adult has seen it all, and can handle any drink well.
 // All drinks are handled explicitly using `match`.
 fn give_adult(drink: Option<&str>) {
