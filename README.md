@@ -1,7 +1,3 @@
-https://github.com/vandadnp/rust-tips-and-tricks/tree/main/tipsandtricks
-
-https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/
-
 <!-- For now, we recommend that you start by reviewing the Rust Book (Chapters 1-11, as well as Chapter 19), with a special focus on these topics:
 
 Primitive Data Types (Chapter 3.2)
@@ -30,8 +26,6 @@ https://github.com/TheAlgorithms/Rust
 
 https://github.com/ctjhoa/rust-learning
 
-https://github.com/rust-lang/this-week-in-rust
-
 https://github.com/rust-in-blockchain/awesome-blockchain-rust
 
 https://docs.rs/
@@ -48,8 +42,6 @@ https://rustwasm.github.io/book/game-of-life/hello-world.html
 
 https://rust-lang.github.io/async-book/
 
-https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html
-
 https://github.com/timvisee/advent-of-code-2020
 
 https://rust-lang-nursery.github.io/rust-cookbook/
@@ -62,8 +54,6 @@ https://linuxhint.com/list_of_linux_syscalls/
 
 https://doc.rust-lang.org/error-index.html#E0207
 
-!!! https://www.cs.brandeis.edu/~cs146a/rust/doc-02-21-2015/book/crates-and-modules.html
-
 https://w3f.github.io/parachain-implementers-guide/
 
 Debug instructions: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
@@ -75,8 +65,6 @@ https://doc.rust-lang.org/rust-by-example/index.html
 https://doc.rust-lang.org/stable/rust-by-example/hello/print/print_display.html
 
 https://www.dataschool.io/how-to-contribute-on-github/
-
-https://doc.rust-lang.org/rust-by-example/generics/assoc_items/types.html
 
 # Commands
 

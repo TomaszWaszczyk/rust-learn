@@ -1,3 +1,5 @@
+// https://www.cs.brandeis.edu/~cs146a/rust/doc-02-21-2015/book/crates-and-modules.html
+
 const HOUSE_NUMBER: u32 = 56;
 
 pub mod bedroom1 {
