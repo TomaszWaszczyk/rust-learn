@@ -17,5 +17,5 @@
 	path = rust
 	url = git@github.com:thealgorithms/rust
 [submodule "awesome-blockchain-rust"]
-	path awesome-blockchain-rust
+	path = awesome-blockchain-rust
 	url = git@github.com:rust-in-blockchain/awesome-blockchain-rust
