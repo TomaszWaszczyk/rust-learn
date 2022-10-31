@@ -13,3 +13,6 @@
 [submodule "rust-blog"]
 	path = rust-blog
 	url = git@github.com:pretzelhammer/rust-blog
+[submodule "rust"]
+	path = rust
+	url = git@github.com:thealgorithms/rust

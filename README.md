@@ -17,12 +17,8 @@ Macros (Chapter 19.5)
 5) Zero To Mastery: Rust Programming: The Complete Developer's Guide -->
 
 https://d3m3vilurr.gitbooks.io/the-unsafe-rust-programming-language/content/uninitialized.html
-https://doc.rust-lang.org/1.0.0/style/ownership/builders.html
+
 https://manishearth.github.io/blog/2015/05/17/the-problem-with-shared-mutability/
-
-https://www.possiblerust.com/pattern/non-generic-inner-functions
-
-https://github.com/TheAlgorithms/Rust
 
 https://github.com/ctjhoa/rust-learning
 
@@ -40,31 +36,21 @@ https://www.snoyman.com/blog/2019/12/rust-crash-course-08-down-dirty-future/
 
 https://rustwasm.github.io/book/game-of-life/hello-world.html
 
-https://rust-lang.github.io/async-book/
-
-https://github.com/timvisee/advent-of-code-2020
-
 https://rust-lang-nursery.github.io/rust-cookbook/
-
-https://github.com/ralfbiedert/cheats.rs
-
-https://serde.rs/
 
 https://linuxhint.com/list_of_linux_syscalls/
 
-https://doc.rust-lang.org/error-index.html#E0207
-
 https://w3f.github.io/parachain-implementers-guide/
 
-Debug instructions: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
+https://www.dataschool.io/how-to-contribute-on-github/
 
-https://jrvidal.github.io/explaine.rs/
+# Books
 
 https://doc.rust-lang.org/rust-by-example/index.html
 
-https://doc.rust-lang.org/stable/rust-by-example/hello/print/print_display.html
+https://rust-lang.github.io/async-book/
 
-https://www.dataschool.io/how-to-contribute-on-github/
+https://doc.rust-lang.org/error-index.html#E0207
 
 # Commands
 
@@ -87,3 +73,5 @@ https://github.com/yewstack/yew
 https://github.com/google/evcxr
 
 Compiler explorer: https://godbolt.org/z/hecxae
+
+Debug: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
