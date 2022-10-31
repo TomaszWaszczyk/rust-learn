@@ -3,7 +3,7 @@ mod experiments;
 mod xor;
 mod iterators;
 mod box_fn;
-
+mod conversions;
 
 fn main() {
     println!("{:#X}", 0xDEADBEEFu32);
@@ -11,5 +11,6 @@ fn main() {
     // xor::xor();
     // handle_errors::handle_errors();
     // experiments::plus_five(1);
-    iterators::iterators();
+    // iterators::iterators();
+    conversions::make_conversions();
 }

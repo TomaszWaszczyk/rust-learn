@@ -46,7 +46,7 @@ https://github.com/ctjhoa/rust-learning
 
 `cargo clean -p <your_package_name>`
 
-https://github.com/watchexec/cargo-watch -> `cargo watch -x 'run'`
+`cargo watch -x 'run'` - https://github.com/watchexec/cargo-watch
 
 `cargo sweep -r -t 0` - https://github.com/holmgr/cargo-sweep - in my github folder regularly, especially when i update rust, and all the old builds are useless
 
