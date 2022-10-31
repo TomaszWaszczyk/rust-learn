@@ -3,7 +3,6 @@ mod experiments;
 mod xor;
 mod iterators;
 mod box_fn;
-mod serde;
 
 
 fn main() {
@@ -13,5 +12,4 @@ fn main() {
     // handle_errors::handle_errors();
     // experiments::plus_five(1);
     iterators::iterators();
-    serde::serde();
 }

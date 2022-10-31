@@ -1,3 +1,5 @@
+// https://d3m3vilurr.gitbooks.io/the-unsafe-rust-programming-language/content/uninitialized.html
+
 /*
 use std::println;
 

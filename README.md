@@ -16,11 +16,7 @@ Macros (Chapter 19.5)
 4) Educative: The Ultimate Guide to Rust Programming
 5) Zero To Mastery: Rust Programming: The Complete Developer's Guide -->
 
-https://d3m3vilurr.gitbooks.io/the-unsafe-rust-programming-language/content/uninitialized.html
-
 https://manishearth.github.io/blog/2015/05/17/the-problem-with-shared-mutability/
-
-https://github.com/ctjhoa/rust-learning
 
 https://github.com/rust-in-blockchain/awesome-blockchain-rust
 
@@ -34,15 +30,9 @@ https://rustacean-principles.netlify.app/
 
 https://www.snoyman.com/blog/2019/12/rust-crash-course-08-down-dirty-future/
 
-https://rustwasm.github.io/book/game-of-life/hello-world.html
-
-https://rust-lang-nursery.github.io/rust-cookbook/
-
 https://linuxhint.com/list_of_linux_syscalls/
 
 https://w3f.github.io/parachain-implementers-guide/
-
-https://www.dataschool.io/how-to-contribute-on-github/
 
 # Books
 
@@ -50,7 +40,13 @@ https://doc.rust-lang.org/rust-by-example/index.html
 
 https://rust-lang.github.io/async-book/
 
+https://rust-lang-nursery.github.io/rust-cookbook/
+
+https://rustwasm.github.io/book/game-of-life/hello-world.html
+
 https://doc.rust-lang.org/error-index.html#E0207
+
+https://github.com/ctjhoa/rust-learning
 
 # Commands
 
