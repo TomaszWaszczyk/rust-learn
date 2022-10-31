@@ -1,3 +1,5 @@
+🦀
+
 <!-- For now, we recommend that you start by reviewing the Rust Book (Chapters 1-11, as well as Chapter 19), with a special focus on these topics:
 
 Primitive Data Types (Chapter 3.2)
@@ -16,25 +18,15 @@ Macros (Chapter 19.5)
 4) Educative: The Ultimate Guide to Rust Programming
 5) Zero To Mastery: Rust Programming: The Complete Developer's Guide -->
 
-https://manishearth.github.io/blog/2015/05/17/the-problem-with-shared-mutability/
-
-https://github.com/rust-in-blockchain/awesome-blockchain-rust
-
-https://docs.rs/
-
-https://cheats.rs/
-
-https://www.beginrust.com/
-
 https://rustacean-principles.netlify.app/
-
-https://www.snoyman.com/blog/2019/12/rust-crash-course-08-down-dirty-future/
 
 https://linuxhint.com/list_of_linux_syscalls/
 
 https://w3f.github.io/parachain-implementers-guide/
 
 # Books
+
+https://docs.rs
 
 https://doc.rust-lang.org/rust-by-example/index.html
 

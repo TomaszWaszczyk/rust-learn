@@ -1,4 +1,5 @@
 // https://d3m3vilurr.gitbooks.io/the-unsafe-rust-programming-language/content/uninitialized.html
+// https://manishearth.github.io/blog/2015/05/17/the-problem-with-shared-mutability/
 
 /*
 use std::println;
