@@ -1,4 +1,4 @@
-🦀
+# 🦀
 
 <!-- For now, we recommend that you start by reviewing the Rust Book (Chapters 1-11, as well as Chapter 19), with a special focus on these topics:
 
@@ -20,11 +20,9 @@ Macros (Chapter 19.5)
 
 https://rustacean-principles.netlify.app/
 
-# Books
+## Books
 
 https://docs.rs
-
-https://doc.rust-lang.org/rust-by-example/index.html
 
 https://rust-lang.github.io/async-book/
 
@@ -36,7 +34,7 @@ https://doc.rust-lang.org/error-index.html#E0207
 
 https://github.com/ctjhoa/rust-learning
 
-# Commands
+## Commands
 
 `cargo clippy` + https://github.com/rust-lang/rustfmt
 
@@ -46,13 +44,13 @@ https://github.com/ctjhoa/rust-learning
 
 `cargo sweep -r -t 0` - https://github.com/holmgr/cargo-sweep - in my github folder regularly, especially when i update rust, and all the old builds are useless
 
-# UI in Rust
+## UI in Rust
 
 https://github.com/emilk/egui
 
 https://github.com/yewstack/yew
 
-# REPL and tools
+## REPL and tools
 
 https://github.com/google/evcxr
 
