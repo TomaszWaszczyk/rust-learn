@@ -6,7 +6,7 @@ mod box_fn;
 mod conversions;
 
 fn main() {
-    println!("{:#X}", 0xDEADBEEFu32);
+    println!("{:#X}, {:#X}", 0xDEADBEEFu32, 0xC0FEBABEu32);
     
     // xor::xor();
     // handle_errors::handle_errors();

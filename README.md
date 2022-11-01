@@ -20,10 +20,6 @@ Macros (Chapter 19.5)
 
 https://rustacean-principles.netlify.app/
 
-https://linuxhint.com/list_of_linux_syscalls/
-
-https://w3f.github.io/parachain-implementers-guide/
-
 # Books
 
 https://docs.rs
