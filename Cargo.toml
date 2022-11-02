@@ -17,3 +17,8 @@ rand_core = "0.6.3"
 sha2 = "*"
 sp-core="*"
 serde = "*"
+
+[workspace.metadata.dylint]
+libraries = [
+    { git = "https://github.com/trailofbits/dylint", pattern = "examples/*/*" },
+]
