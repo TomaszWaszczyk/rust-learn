@@ -21,3 +21,6 @@ jobs:
       - uses: actions-rs/clippy-check@v1.0.7
       - name: rust-clippy-check
         run: rustup component add clippy
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          args: --all-features
