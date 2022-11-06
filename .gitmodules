@@ -19,3 +19,6 @@
 [submodule "awesome-blockchain-rust"]
 	path = awesome-blockchain-rust
 	url = git@github.com:rust-in-blockchain/awesome-blockchain-rust
+[submodule "rustbooks"]
+	path = rustbooks
+	url = git@github.com:sger/RustBooks.git
