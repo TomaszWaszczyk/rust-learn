@@ -24,6 +24,8 @@ https://rustacean-principles.netlify.app/
 
 https://docs.rs
 
+https://blessed.rs
+
 https://rust-lang.github.io/async-book/
 
 https://rust-lang-nursery.github.io/rust-cookbook/
