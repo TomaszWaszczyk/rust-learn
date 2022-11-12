@@ -36,6 +36,8 @@ https://github.com/ctjhoa/rust-learning
 
 ## Commands
 
+https://github.com/cargo-generate/cargo-generate
+
 `cargo clippy` + https://github.com/rust-lang/rustfmt
 
 `cargo clean -p <your_package_name>`

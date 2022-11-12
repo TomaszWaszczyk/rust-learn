@@ -22,3 +22,6 @@
 [submodule "rustbooks"]
 	path = rustbooks
 	url = git@github.com:sger/RustBooks.git
+[submodule "design-patterns-rust"]
+	path = design-patterns-rust
+	url = git@github.com:fadeevab/design-patterns-rust.git
