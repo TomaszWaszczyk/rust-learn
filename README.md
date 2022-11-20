@@ -36,6 +36,8 @@ https://doc.rust-lang.org/error-index.html#E0207
 
 https://github.com/ctjhoa/rust-learning
 
+[Anti Patterns](https://rust-unofficial.github.io/patterns/anti_patterns/borrow_clone.html)
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate

@@ -25,3 +25,6 @@
 [submodule "design-patterns-rust"]
 	path = design-patterns-rust
 	url = git@github.com:fadeevab/design-patterns-rust.git
+[submodule "rust-anthology"]
+	path = rust-anthology
+	url = git@github.com:brson/rust-anthology.git
