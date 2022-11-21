@@ -42,8 +42,9 @@ impl From<MyOtherStruct> for MyStruct {
     }
 }
 
-#[allow(dead_code)]
-fn main() {
+// #[allow(dead_code)]
+// https://doc.rust-lang.org/rustc/lints/listing/warn-by-default.html#dead-code
+fn _main() {
     let my_other_struct = MyOtherStruct {
         my_other_data: "some text".to_string(),
     };
