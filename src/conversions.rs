@@ -25,6 +25,13 @@
 //     a.into() + b.into()
 // }
 
+// The From trait is the reciprocal of Into. One should prefer implementing From because that automatically provides an implementation of Into.
+
+// 👉 From/Into is part of the standard library, which adds many implementations 
+// 👉 Implementing From automatically implements Into
+// 👉 If your conversion can fail, you can use TryFrom/TryInto
+// 👉 Can be combined with Serde's into container attribute to serialize into the specified type
+
 struct MyStruct {
     pub my_data: String,
 }
