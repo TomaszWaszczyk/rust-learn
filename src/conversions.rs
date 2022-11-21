@@ -42,6 +42,7 @@ impl From<MyOtherStruct> for MyStruct {
     }
 }
 
+#[allow(dead_code)]
 fn main() {
     let my_other_struct = MyOtherStruct {
         my_other_data: "some text".to_string(),
