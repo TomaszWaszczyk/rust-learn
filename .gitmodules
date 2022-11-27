@@ -28,3 +28,6 @@
 [submodule "rust-anthology"]
 	path = rust-anthology
 	url = git@github.com:brson/rust-anthology.git
+[submodule "cracking-the-coding-interview-rust"]
+	path = cracking-the-coding-interview-rust
+	url = git@github.com:brndnmtthws/cracking-the-coding-interview-rust.git
