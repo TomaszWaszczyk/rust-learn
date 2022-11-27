@@ -14,25 +14,25 @@
 // 👉 Reduce runtime complexity by using const bounds
 
 mod structs {
-    struct MyStruct<const N: usize = 1> {
+    pub struct MyStruct<const N: usize = 1> {
         my_list: [i32; N],
     }
 
     impl<const N: usize> MyStruct<N>{
-        fn new() -> Self {
+        pub fn new() -> Self {
             Self { my_list: [1; N] }
         }
 
-        fn get_list(self) -> [i32; N] {
+        pub fn get_list(self) -> [i32; N] {
             self.my_list
         }
     }
 }
 
 fn main() {
-    let my_struct: structs::MyStruct = MyStruct::new();
+    let my_struct: structs::MyStruct = structs::MyStruct::new();
     assert_eq!(my_struct.get_list(), [1]);
 
-    let my_struct: MyStruct<3> = MyStruct::new();
+    let my_struct: structs::MyStruct<3> = structs::MyStruct::new();
     assert_eq!(my_struct.get_list(), [1,1,1]);
 }
