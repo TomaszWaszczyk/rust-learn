@@ -1,7 +1,7 @@
 // Abstract over const values with const generics in Rust.
 
 // Use const generics to have generic arguments that range over constant
-//  values instead of types or lifetimes.
+// values instead of types or lifetimes.
 
 // With this feature, you can abstract over arrays of any size. 
 // Before, one had to implement a trait manually for each possible length. 
