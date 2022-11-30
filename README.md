@@ -42,6 +42,8 @@ https://github.com/ctjhoa/rust-learning
 
 https://github.com/cargo-generate/cargo-generate
 
+https://github.com/shuttle-hq/shuttle
+
 `cargo clippy` + https://github.com/rust-lang/rustfmt
 
 `cargo clean -p <your_package_name>`
