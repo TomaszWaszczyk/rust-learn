@@ -639,6 +639,7 @@ name = "handle-errors"
 version = "0.1.0"
 dependencies = [
  "aes",
+ "anyhow",
  "hex",
  "merlin 3.0.0",
  "rand 0.8.5",

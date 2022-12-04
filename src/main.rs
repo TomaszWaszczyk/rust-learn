@@ -19,9 +19,11 @@ fn main() {
     // println!("Sum is: {}", sum);
 
 
-    // advent of code
+    // 🎄🎄🎄 Advent of Code 🎄🎄🎄
     // "cargo run < ./src/advent_of_code/sample_data/year/2022/day/01/input_part1"
-    use advent_of_code::year_2022::day_01::{part1, part2, input};
-    let input = input();
-    println!("P2: {}", part2(&input));
+    use advent_of_code::year_2022::day_02::{input, part1};
+    // let input = input();
+    // println!("{}", part1(&input));
+
+
 }

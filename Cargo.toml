@@ -17,6 +17,7 @@ rand_core = "0.6.3"
 sha2 = "*"
 sp-core="*"
 serde = "*"
+anyhow = "1.0.66"
 
 [workspace.metadata.dylint]
 libraries = [
