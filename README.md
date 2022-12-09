@@ -60,6 +60,8 @@ https://github.com/emilk/egui
 
 https://github.com/yewstack/yew
 
+https://github.com/slint-ui/slint
+
 ## REPL and tools
 
 https://github.com/google/evcxr
