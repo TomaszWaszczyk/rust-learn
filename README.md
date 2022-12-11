@@ -69,3 +69,5 @@ https://github.com/google/evcxr
 Compiler explorer: https://godbolt.org/z/hecxae
 
 Debug: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
+
+Design of Rust language: https://github.com/rust-lang/lang-team
