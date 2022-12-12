@@ -52,6 +52,8 @@ https://github.com/shuttle-hq/shuttle
 
 `cargo sweep -r -t 0` - https://github.com/holmgr/cargo-sweep - in my github folder regularly, especially when i update rust, and all the old builds are useless
 
+https://github.com/bnjbvr/cargo-machete
+
 https://lib.rs/command-line-utilities
 
 ## UI in Rust
