@@ -1,6 +1,12 @@
 # 🦀
 
-<!-- For now, we recommend that you start by reviewing the Rust Book (Chapters 1-11, as well as Chapter 19), with a special focus on these topics:
+<!-- 
+
+https://enet4.github.io/rust-tropes/
+https://cglab.ca/%7Eabeinges/blah/everyone-poops/#pre-pooping-your-pants
+https://google.github.io/comprehensive-rust/
+
+For now, we recommend that you start by reviewing the Rust Book (Chapters 1-11, as well as Chapter 19), with a special focus on these topics:
 
 Primitive Data Types (Chapter 3.2)
 Structs (Chapter 5) 
@@ -20,7 +26,7 @@ Macros (Chapter 19.5)
 
 https://rustacean-principles.netlify.app/
 
-## Books
+## Books and videos
 
 https://docs.rs
 
@@ -35,6 +41,8 @@ https://rustwasm.github.io/book/game-of-life/hello-world.html
 https://doc.rust-lang.org/error-index.html#E0207
 
 https://github.com/ctjhoa/rust-learning
+
+https://github.com/jamesmunns/awesome-rust-streaming
 
 [Anti Patterns](https://rust-unofficial.github.io/patterns/anti_patterns/borrow_clone.html)
 
@@ -55,6 +63,8 @@ https://github.com/shuttle-hq/shuttle
 https://lib.rs/command-line-utilities
 
 ## UI in Rust
+
+https://github.com/igiagkiozis/plotly
 
 https://github.com/emilk/egui
 
