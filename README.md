@@ -60,6 +60,8 @@ https://github.com/shuttle-hq/shuttle
 
 `cargo sweep -r -t 0` - https://github.com/holmgr/cargo-sweep - in my github folder regularly, especially when i update rust, and all the old builds are useless
 
+https://github.com/bnjbvr/cargo-machete
+
 https://lib.rs/command-line-utilities
 
 ## UI in Rust
@@ -70,6 +72,8 @@ https://github.com/emilk/egui
 
 https://github.com/yewstack/yew
 
+https://github.com/slint-ui/slint
+
 ## REPL and tools
 
 https://github.com/google/evcxr
@@ -77,3 +81,5 @@ https://github.com/google/evcxr
 Compiler explorer: https://godbolt.org/z/hecxae
 
 Debug: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
+
+Design of Rust language: https://github.com/rust-lang/lang-team
