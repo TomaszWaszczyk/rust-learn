@@ -44,6 +44,8 @@ https://github.com/ctjhoa/rust-learning
 
 https://github.com/jamesmunns/awesome-rust-streaming
 
+https://rust-book.cs.brown.edu/
+
 [Anti Patterns](https://rust-unofficial.github.io/patterns/anti_patterns/borrow_clone.html)
 
 ## Commands
