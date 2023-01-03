@@ -44,7 +44,9 @@ https://github.com/ctjhoa/rust-learning
 
 https://github.com/jamesmunns/awesome-rust-streaming
 
-https://rust-book.cs.brown.edu/
+https://rust-book.cs.brown.edu
+
+https://github.com/TomaszWaszczyk/comprehensive-rust
 
 [Anti Patterns](https://rust-unofficial.github.io/patterns/anti_patterns/borrow_clone.html)
 
