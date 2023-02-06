@@ -48,6 +48,8 @@ https://rust-book.cs.brown.edu
 
 https://github.com/TomaszWaszczyk/comprehensive-rust
 
+https://rustmagazine.org/issue-1/
+
 [Anti Patterns](https://rust-unofficial.github.io/patterns/anti_patterns/borrow_clone.html)
 
 ## Commands
