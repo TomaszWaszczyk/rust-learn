@@ -1,6 +1,8 @@
 # 🦀
 
 <!-- 
+http://addresses.loyce.club/
+
 
 https://enet4.github.io/rust-tropes/
 https://cglab.ca/%7Eabeinges/blah/everyone-poops/#pre-pooping-your-pants
