@@ -54,6 +54,8 @@ https://rustmagazine.org/issue-1/
 
 [Anti Patterns](https://rust-unofficial.github.io/patterns/anti_patterns/borrow_clone.html)
 
+https://github.com/tweedegolf/101-rs
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
