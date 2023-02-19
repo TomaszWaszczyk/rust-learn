@@ -56,6 +56,8 @@ https://rustmagazine.org/issue-1/
 
 https://github.com/tweedegolf/101-rs
 
+https://github.com/TomaszWaszczyk/learn_unsafe_rust
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
