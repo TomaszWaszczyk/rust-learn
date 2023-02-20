@@ -1,7 +1,7 @@
 # 🦀
 
 <!-- 
-
+https://doc.rust-lang.org/std/convert/trait.AsRef.html
 https://enet4.github.io/rust-tropes/
 https://cglab.ca/%7Eabeinges/blah/everyone-poops/#pre-pooping-your-pants
 https://google.github.io/comprehensive-rust/
