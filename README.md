@@ -2,6 +2,8 @@
 
 <!-- 
 https://doc.rust-lang.org/std/convert/trait.AsRef.html
+
+http://addresses.loyce.club/
 https://enet4.github.io/rust-tropes/
 https://cglab.ca/%7Eabeinges/blah/everyone-poops/#pre-pooping-your-pants
 https://google.github.io/comprehensive-rust/
@@ -44,9 +46,19 @@ https://github.com/ctjhoa/rust-learning
 
 https://github.com/jamesmunns/awesome-rust-streaming
 
-https://rust-book.cs.brown.edu/
+https://rust-book.cs.brown.edu
+
+https://github.com/TomaszWaszczyk/comprehensive-rust
+
+https://rustmagazine.org/issue-1/
 
 [Anti Patterns](https://rust-unofficial.github.io/patterns/anti_patterns/borrow_clone.html)
+
+https://github.com/tweedegolf/101-rs
+
+https://github.com/TomaszWaszczyk/learn_unsafe_rust
+
+https://github.com/nnethercote/perf-book
 
 ## Commands
 
@@ -85,3 +97,8 @@ Compiler explorer: https://godbolt.org/z/hecxae
 Debug: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
 
 Design of Rust language: https://github.com/rust-lang/lang-team
+
+### Adoption and/or cool projects
+
+https://fyrox.rs/examples.html
+
