@@ -58,6 +58,8 @@ https://github.com/tweedegolf/101-rs
 
 https://github.com/TomaszWaszczyk/learn_unsafe_rust
 
+https://github.com/nnethercote/perf-book
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
@@ -95,3 +97,8 @@ Compiler explorer: https://godbolt.org/z/hecxae
 Debug: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
 
 Design of Rust language: https://github.com/rust-lang/lang-team
+
+### Adoption and/or cool projects
+
+https://fyrox.rs/examples.html
+
