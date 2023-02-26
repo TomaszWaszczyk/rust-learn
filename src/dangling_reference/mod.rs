@@ -10,6 +10,17 @@ pub fn dangling_reference() {
     println!("r: {}", r);   //           | dangling reference
 }                           // ----------+
 
+fn main() {
+    let r: &i32;
+
+    {
+        let x: i32 = 5;
+        r = &x;
+    }
+
+    println!("r: {}", r);
+}
+
 // fn main() {
 //     let var: u32 = 4;
 // }

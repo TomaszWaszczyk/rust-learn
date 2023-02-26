@@ -60,6 +60,8 @@ https://github.com/TomaszWaszczyk/learn_unsafe_rust
 
 https://github.com/nnethercote/perf-book
 
+https://fasterthanli.me/articles/a-half-hour-to-learn-rust
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
