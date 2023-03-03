@@ -8,6 +8,8 @@ https://enet4.github.io/rust-tropes/
 https://cglab.ca/%7Eabeinges/blah/everyone-poops/#pre-pooping-your-pants
 https://google.github.io/comprehensive-rust/
 
+https://github.com/dtolnay/rust-quiz
+
 For now, we recommend that you start by reviewing the Rust Book (Chapters 1-11, as well as Chapter 19), with a special focus on these topics:
 
 Primitive Data Types (Chapter 3.2)
