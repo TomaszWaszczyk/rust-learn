@@ -24,11 +24,14 @@ pub mod currying {
 }
 
 fn main() {
-    let double = currying::multiply_curry(2);
+    // let double = currying::multiply_curry(2);
 
-    let double_four = double(4);
-    let double_five = double(5);
+    // let double_four = double(4);
+    // let double_five = double(5);
 
-    assert_eq!(double_four, 8);
-    assert_eq!(double_five, 10);
+    // assert_eq!(double_four, 8);
+    // assert_eq!(double_five, 10);
+    // ================================================================================================= //
+    let prefix : &str = "he";
+    assert_eq!(b"hello".strip_prefix(prefix.as_bytes()),Some(b"llo".as_ref()));
 }
