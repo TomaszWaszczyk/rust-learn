@@ -23,6 +23,14 @@ pub mod currying {
     }
 }
 
+pub fn trim_extra_whitespace(item: &str) -> &str {
+    if let Some(stripped) = item.strip_prefix(' ') {
+        stripped.trim_end()
+    } else {
+        item.trim_end()
+    }
+}
+
 fn main() {
     // let double = currying::multiply_curry(2);
 
@@ -32,6 +40,7 @@ fn main() {
     // assert_eq!(double_four, 8);
     // assert_eq!(double_five, 10);
     // ================================================================================================= //
-    let prefix : &str = "he";
-    assert_eq!(b"hello".strip_prefix(prefix.as_bytes()),Some(b"llo".as_ref()));
+    let prefix : &str = " he";
+    let post = trim_extra_whitespace(prefix);
+    assert_eq!(prefix, post);
 }
