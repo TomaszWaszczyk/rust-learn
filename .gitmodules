@@ -31,3 +31,6 @@
 [submodule "cracking-the-coding-interview-rust"]
 	path = cracking-the-coding-interview-rust
 	url = git@github.com:brndnmtthws/cracking-the-coding-interview-rust.git
+[submodule "comprehensive-rust"]
+	path = comprehensive-rust
+	url = git@github.com:google/comprehensive-rust.git

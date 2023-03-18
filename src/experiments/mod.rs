@@ -42,5 +42,8 @@ fn main() {
     // ================================================================================================= //
     let prefix : &str = " he";
     let post = trim_extra_whitespace(prefix);
+
+    let mut vec = Vec::new();
+
     assert_eq!(prefix, post);
 }
