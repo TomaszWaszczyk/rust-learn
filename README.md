@@ -80,6 +80,8 @@ https://github.com/shuttle-hq/shuttle
 
 https://github.com/bnjbvr/cargo-machete
 
+https://github.com/alopatindev/cargo-limit
+
 https://lib.rs/command-line-utilities
 
 ## UI in Rust
