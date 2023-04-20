@@ -31,14 +31,14 @@ pub fn trim_extra_whitespace(item: &str) -> &str {
     }
 }
 
-pub fn get_list(list: &mut Vec<String>) -> &mut String {
-    if let Some(s) = list.first_mut() {
-        return s;
-    }
+// pub fn get_list(list: &mut Vec<String>) -> &mut String {
+//     if let Some(s) = list.first_mut() {
+//         return s;
+//     }
 
-    list.push(format!("Hello, world!"));
-    list.first_mut().unwrap()
-}
+//     list.push(format!("Hello, world!"));
+//     list.first_mut().unwrap()
+// }
 
 fn main() {
     // let double = currying::multiply_curry(2);
@@ -52,7 +52,7 @@ fn main() {
     let prefix : &str = " he";
     let post = trim_extra_whitespace(prefix);
 
-    let mut vec = Vec::new();
+    // let mut vec: Vec<_> = Vec::new();
 
     assert_eq!(prefix, post);
 }
