@@ -84,6 +84,12 @@ https://github.com/alopatindev/cargo-limit
 
 https://lib.rs/command-line-utilities
 
+Cargo-watch
+
+Cargo-nextest
+
+Sccache
+
 ## UI in Rust
 
 https://github.com/igiagkiozis/plotly
