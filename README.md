@@ -123,3 +123,7 @@ https://fyrox.rs/examples.html
 https://github.com/rhaiscript/rhai
 
 https://grantshandy.github.io/posts/raycasting/
+
+## Embedded, kernel and drivers development
+
+https://github.com/tock/tock
