@@ -34,3 +34,6 @@
 [submodule "comprehensive-rust"]
 	path = comprehensive-rust
 	url = git@github.com:google/comprehensive-rust.git
+[submodule "patterns"]
+	path = patterns
+	url = git@github.com:TomaszWaszczyk/patterns.git

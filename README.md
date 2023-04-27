@@ -54,6 +54,8 @@ https://github.com/TomaszWaszczyk/comprehensive-rust
 
 https://rustmagazine.org/issue-1/
 
+https://nnethercote.github.io/perf-book/inlining.html
+
 [Anti Patterns](https://rust-unofficial.github.io/patterns/anti_patterns/borrow_clone.html)
 
 https://github.com/tweedegolf/101-rs
@@ -89,6 +91,10 @@ Cargo-watch
 Cargo-nextest
 
 Sccache
+
+https://github.com/obi1kenobi/cargo-semver-checks
+
+https://github.com/cargo-generate/cargo-generate
 
 ## UI in Rust
 
