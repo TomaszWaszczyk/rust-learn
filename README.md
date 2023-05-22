@@ -96,6 +96,8 @@ https://github.com/obi1kenobi/cargo-semver-checks
 
 https://github.com/cargo-generate/cargo-generate
 
+https://github.com/clap-rs/clap
+
 ## UI in Rust
 
 https://github.com/igiagkiozis/plotly
