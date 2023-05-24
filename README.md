@@ -66,6 +66,8 @@ https://github.com/nnethercote/perf-book
 
 https://fasterthanli.me/articles/a-half-hour-to-learn-rust
 
+https://github.com/TomaszWaszczyk/rust-orphan-rules
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
