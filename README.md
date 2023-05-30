@@ -68,6 +68,8 @@ https://fasterthanli.me/articles/a-half-hour-to-learn-rust
 
 https://github.com/TomaszWaszczyk/rust-orphan-rules
 
+https://github.com/TomaszWaszczyk/blessed-rs
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
