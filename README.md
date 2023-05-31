@@ -68,6 +68,10 @@ https://fasterthanli.me/articles/a-half-hour-to-learn-rust
 
 https://marabos.nl/atomics/
 
+https://github.com/TomaszWaszczyk/rust-orphan-rules
+
+https://github.com/TomaszWaszczyk/blessed-rs
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
@@ -98,6 +102,8 @@ https://github.com/obi1kenobi/cargo-semver-checks
 
 https://github.com/cargo-generate/cargo-generate
 
+https://github.com/clap-rs/clap
+
 ## UI in Rust
 
 https://github.com/igiagkiozis/plotly
@@ -126,4 +132,10 @@ https://github.com/rhaiscript/rhai
 
 https://grantshandy.github.io/posts/raycasting/
 
+<<<<<<< HEAD
 <!-- Fast Inverse Square Root -->
+=======
+## Embedded, kernel and drivers development
+
+https://github.com/tock/tock
+>>>>>>> 3b0c04bab43965726d5de266dbe72e120e06b547
