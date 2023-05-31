@@ -26,15 +26,15 @@ mod linked_list {
         }
 
         fn pop(&mut self) -> Option<&T> {
-            let prev_head = self.head.take();
-
-            let new_head = match prev_head {
-                None => _,
+            let prev_head = self.head.take()?;
+    
+            let new_head = match prev_head.next {
+                None => None,
                 Some(node) => Some(*node)
             };
 
             self.head = new_head;
-            Some(&old_head.value);
+            Some(&prev_head.value)
         }
     }
 }
