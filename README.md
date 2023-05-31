@@ -66,6 +66,8 @@ https://github.com/nnethercote/perf-book
 
 https://fasterthanli.me/articles/a-half-hour-to-learn-rust
 
+https://marabos.nl/atomics/
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
@@ -123,3 +125,5 @@ https://fyrox.rs/examples.html
 https://github.com/rhaiscript/rhai
 
 https://grantshandy.github.io/posts/raycasting/
+
+<!-- Fast Inverse Square Root -->
