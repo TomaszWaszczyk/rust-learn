@@ -132,10 +132,12 @@ https://github.com/rhaiscript/rhai
 
 https://grantshandy.github.io/posts/raycasting/
 
-<<<<<<< HEAD
 <!-- Fast Inverse Square Root -->
-=======
+
 ## Embedded, kernel and drivers development
 
 https://github.com/tock/tock
->>>>>>> 3b0c04bab43965726d5de266dbe72e120e06b547
+
+https://doc.rust-lang.org/stable/nomicon/
+
+https://os.phil-opp.com
