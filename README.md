@@ -124,6 +124,8 @@ Debug: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio
 
 Design of Rust language: https://github.com/rust-lang/lang-team
 
+https://compiler-explorer.com
+
 ### Adoption and/or cool projects
 
 https://fyrox.rs/examples.html
