@@ -72,6 +72,8 @@ https://github.com/TomaszWaszczyk/rust-orphan-rules
 
 https://github.com/TomaszWaszczyk/blessed-rs
 
+https://rustworkshop.co/2023/06/18/rust-programming-books/
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
