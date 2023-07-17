@@ -72,6 +72,8 @@ https://github.com/TomaszWaszczyk/rust-orphan-rules
 
 https://github.com/TomaszWaszczyk/blessed-rs
 
+https://rustworkshop.co/2023/06/18/rust-programming-books/
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
@@ -123,6 +125,8 @@ Compiler explorer: https://godbolt.org/z/hecxae
 Debug: https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/
 
 Design of Rust language: https://github.com/rust-lang/lang-team
+
+https://compiler-explorer.com
 
 ### Adoption and/or cool projects
 
