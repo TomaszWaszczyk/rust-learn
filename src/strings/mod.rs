@@ -5,15 +5,21 @@
 // understand specifically which type you’re trying to parse into.
 
 mod strings {
-    pub fn default() {
-        let s: &str;
-        s.split(",").map(|x| x.into()).collect::<Vec<String>>().into()
+    // pub fn default() {
+    //     let s: &str;
+    //     s.split(",").map(|x| x.into()).collect::<Vec<String>>().into()
+    // }
+
+    pub fn slice_from() {
+        let s = String::from("hello world");
+        let w = &s[0..5];
+        println!("{}", w);
     }
 }
 
 fn main() {
-    let four = "4".parse::<u32>().unwrap();
-    assert_eq!(4, four);
+    // let four = "4".parse::<u32>().unwrap();
+    // assert_eq!(4, four);
 
-    // strings::default();
+    strings::slice_from();
 }
