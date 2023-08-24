@@ -74,6 +74,8 @@ https://github.com/TomaszWaszczyk/blessed-rs
 
 https://rustworkshop.co/2023/06/18/rust-programming-books/
 
+https://rustwasm.github.io/twiggy/concepts/generic-functions-and-monomorphization.html
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
