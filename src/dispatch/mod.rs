@@ -1,3 +1,5 @@
+// https://stackoverflow.com/questions/28621980/what-are-the-actual-runtime-performance-costs-of-dynamic-dispatch
+
 pub fn demo(x: impl Iterator<Item = i32>) -> i32 {
     x.sum()
 }
