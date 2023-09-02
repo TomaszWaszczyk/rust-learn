@@ -28,6 +28,10 @@ pub fn foo() {
     "J".hey();
 }
 
-pub fn bar(h: impl Hey) {
+pub fn bar(h: impl Hey) { // syntax sugar
     h.hey(); // no information about "h" type here -> static dispatch
+}
+
+pub fn sugar_bar<H: Hey>(h: H) {
+    h.hey();
 }
