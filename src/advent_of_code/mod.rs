@@ -27,32 +27,31 @@ pub mod year_2022 {
         }
 
         pub fn input() -> Vec<u128> {
-            let (mut max, buffer) = std::io::stdin()
-            .lock()
-            .lines()
-            .fold((vec![], 0), |(mut max, buffer), line| {
-                let line = line.unwrap();
+            let (mut max, buffer) =
+                std::io::stdin()
+                    .lock()
+                    .lines()
+                    .fold((vec![], 0), |(mut max, buffer), line| {
+                        let line = line.unwrap();
 
-                if line.is_empty() {
-                    max.push(buffer);
-                    (max, 0)
-                } else {
-                    let c: u128 = line.parse().unwrap();
-                    (max, buffer + c)
-                }
-            });
+                        if line.is_empty() {
+                            max.push(buffer);
+                            (max, 0)
+                        } else {
+                            let c: u128 = line.parse().unwrap();
+                            (max, buffer + c)
+                        }
+                    });
 
             max.push(buffer);
             max.sort();
             max
         }
-    
-    
     }
 
     pub mod day_02 {
-        use std::io::BufRead;
         use anyhow::{anyhow, bail, Result};
+        use std::io::BufRead;
 
         #[derive(Debug, Clone, Copy)]
         enum Shape {
@@ -75,7 +74,7 @@ pub mod year_2022 {
             std::io::stdin()
                 .lock()
                 .lines()
-                .map(|line| -> Result<_>{
+                .map(|line| -> Result<_> {
                     use Shape::*;
 
                     let line = line?;
@@ -85,14 +84,14 @@ pub mod year_2022 {
                         "A" => Rock,
                         "B" => Paper,
                         "C" => Scissors,
-                        _ => bail!("Invalid play")
+                        _ => bail!("Invalid play"),
                     };
 
                     let player2 = match split.next().ok_or_else(|| anyhow!("No play enemy"))? {
                         "X" => Rock,
                         "Y" => Paper,
                         "Z" => Scissors,
-                        _ => bail!("Invalid play")
+                        _ => bail!("Invalid play"),
                     };
 
                     if split.next().is_some() {
@@ -103,8 +102,8 @@ pub mod year_2022 {
                         enemy: player1,
                         me: player2,
                     })
-
-                }).collect()
+                })
+                .collect()
         }
 
         enum Outcome {
@@ -131,8 +130,8 @@ pub mod year_2022 {
 
         impl Round {
             fn outcome(self) -> Outcome {
-                use Shape::*;
                 use Outcome::*;
+                use Shape::*;
 
                 match (self.me, self.enemy) {
                     (Rock, Rock) => Draw,
@@ -155,8 +154,5 @@ pub mod year_2022 {
         pub fn part1(input: &[Round]) -> u128 {
             input.iter().map(|round| round.points()).sum()
         }
-
-
     }
-
 }
