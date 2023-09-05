@@ -1,5 +1,6 @@
 // In Java almost everything is heap allocated
 // In Rust almost EVERYTHING is stack allocated, unless you explicitly heap-allocate
+// Using Box is a way to allocate a variable on the heap(!!!) rather than the stack
 
 pub fn spellcheck(input: &str, spellchecker: C) -> String {
     for change in spellchecker.check(input) {
