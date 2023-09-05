@@ -35,3 +35,5 @@ pub fn bar(h: impl Hey) { // syntax sugar
 pub fn sugar_bar<H: Hey>(h: H) {
     h.hey();
 }
+
+pub fn foo_bar(h: dyn Hey) {}
