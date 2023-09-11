@@ -18,6 +18,7 @@ sha2 = "*"
 sp-core="*"
 serde = "*"
 anyhow = "1.0.66"
+parity-scale-codec = { version = "3.6.5", features = ["derive"] }
 
 [workspace.metadata.dylint]
 libraries = [
