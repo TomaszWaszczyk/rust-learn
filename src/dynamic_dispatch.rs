@@ -24,7 +24,7 @@ impl Shape for Circle {
 
 fn main() {
     // trait objects must include the `dyn` keyword
-    let shapes: [&dyn Shape; 2] = [&Circle{radius: 1.3}, &Square{side:2.0}];
+    let shapes: [&dyn Shape; 3] = [&Circle{radius: 1.3}, &Square{side:2.0}, &Circle{radius: 2.0}];
 
     // &&dyn Shape
     for (i, shape) in shapes.iter().enumerate() {
