@@ -32,6 +32,8 @@ https://rustacean-principles.netlify.app/
 
 https://rust-lang.github.io/rfcs/1598-generic_associated_types.html
 
+https://rust-lang.github.io/generic-associated-types-initiative/
+
 ## Books and videos
 
 https://docs.rs
