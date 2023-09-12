@@ -30,6 +30,8 @@ Macros (Chapter 19.5)
 
 https://rustacean-principles.netlify.app/
 
+https://rust-lang.github.io/rfcs/1598-generic_associated_types.html
+
 ## Books and videos
 
 https://docs.rs
