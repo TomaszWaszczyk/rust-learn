@@ -36,6 +36,8 @@ https://rust-lang.github.io/generic-associated-types-initiative/
 
 ## Books and videos
 
+https://github.com/rust-lang/reference
+
 https://docs.rs
 
 https://blessed.rs
