@@ -28,6 +28,8 @@ Macros (Chapter 19.5)
 4) Educative: The Ultimate Guide to Rust Programming
 5) Zero To Mastery: Rust Programming: The Complete Developer's Guide -->
 
+https://eventhelix.com/rust/
+
 https://rustacean-principles.netlify.app/
 
 https://rust-lang.github.io/rfcs/1598-generic_associated_types.html
