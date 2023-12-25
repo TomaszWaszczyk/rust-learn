@@ -86,6 +86,8 @@ https://rustworkshop.co/2023/06/18/rust-programming-books/
 
 https://rustwasm.github.io/twiggy/concepts/generic-functions-and-monomorphization.html
 
+https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/macros.html
+
 ## Commands
 
 https://github.com/cargo-generate/cargo-generate
