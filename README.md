@@ -36,6 +36,8 @@ https://rust-lang.github.io/rfcs/1598-generic_associated_types.html
 
 https://rust-lang.github.io/generic-associated-types-initiative/
 
+https://github.com/TomaszWaszczyk/road-to-being-master-rustacean
+
 https://doc.rust-lang.org/cargo/reference/resolver.html#feature-resolver-version-2
 
 ## Books and videos
