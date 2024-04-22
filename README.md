@@ -1,6 +1,6 @@
 # 🦀
 
-<!-- 
+<!--
 https://doc.rust-lang.org/std/convert/trait.AsRef.html
 
 http://addresses.loyce.club/
@@ -131,6 +131,8 @@ https://github.com/emilk/egui
 https://github.com/yewstack/yew
 
 https://github.com/slint-ui/slint
+
+https://ratatui.rs/concepts/builder-lite-pattern/
 
 ## REPL and tools
 
