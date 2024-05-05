@@ -1,6 +1,6 @@
 fn main() {
     let a = 100;
-    let b_ref = work(&a);
+    let _b_ref = work(&a);
 }
 
 fn work(a_ref: &i32) -> &'static i32 {
