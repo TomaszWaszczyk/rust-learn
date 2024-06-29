@@ -6,6 +6,7 @@ mod handle_errors;
 mod iterators;
 mod math;
 mod xor;
+mod arc;
 
 fn main() {
     println!("{:#X}, {:#X}", 0xDEADBEEFu32, 0xC0FEBABEu32);
