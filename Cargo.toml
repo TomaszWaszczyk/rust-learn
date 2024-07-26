@@ -20,6 +20,9 @@ serde = "*"
 anyhow = "1.0.66"
 parity-scale-codec = { version = "3.6.5", features = ["derive"] }
 
+[workspace]
+members = ["scale"]
+
 [workspace.metadata.dylint]
 libraries = [
     { git = "https://github.com/trailofbits/dylint", pattern = "examples/*/*" },
