@@ -7,6 +7,8 @@ mod iterators;
 mod math;
 mod xor;
 mod arc;
+mod associated_types;
+
 
 fn main() {
     println!("{:#X}, {:#X}", 0xDEADBEEFu32, 0xC0FEBABEu32);
