@@ -1,4 +1,4 @@
-use std::fmt::Debug;
+use std::{fmt::Debug, process::Output};
 
 trait Producer {
     type Input: Debug + Default;
@@ -11,9 +11,8 @@ trait Generic<I: Debug + Default, O: Debug + Default> {
 }
 
 
-fn use_producer(p: impl Producer){
-
-}
+fn use_producer(p: impl Producer<Input = u32, Output = String>){}
+// fn use_producer(p: impl Producer){}
 
 fn use_generic<I, O>(g: impl Generic<I, O>)
 where
@@ -45,5 +44,6 @@ O: Debug + Default
 
 fn main(){
     let a = A;
+    // a.produce(String::new());
     Producer::produce(&a, String::new());
 }
