@@ -6,6 +6,12 @@ trait Producer {
     fn produce(&self, input: Self::Input) -> Self::Output;
 }
 
+impl Debug for Producer {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, {})
+    }
+}
+
 trait Generic<I: Debug + Default, O: Debug + Default> {
     fn produce(&self, input: I) -> O;
 }
