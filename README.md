@@ -136,6 +136,8 @@ https://github.com/slint-ui/slint
 
 https://ratatui.rs/concepts/builder-lite-pattern/
 
+https://swc.rs
+
 ## REPL and tools
 
 https://github.com/google/evcxr
