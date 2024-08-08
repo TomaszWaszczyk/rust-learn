@@ -42,6 +42,8 @@ https://github.com/TomaszWaszczyk/road-to-being-master-rustacean
 
 https://doc.rust-lang.org/cargo/reference/resolver.html#feature-resolver-version-2
 
+https://github.com/TomaszWaszczyk/rust-lang-course
+
 ## Books and videos
 
 https://github.com/rust-lang/reference
