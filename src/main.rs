@@ -8,6 +8,7 @@ mod math;
 mod xor;
 mod arc;
 mod associated_types;
+mod global_or_not_global;
 
 
 fn main() {
