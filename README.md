@@ -142,6 +142,8 @@ https://ratatui.rs/concepts/builder-lite-pattern/
 
 https://swc.rs
 
+https://github.com/tokio-rs/axum
+
 ## REPL and tools
 
 https://github.com/google/evcxr
@@ -163,6 +165,10 @@ https://github.com/rhaiscript/rhai
 https://grantshandy.github.io/posts/raycasting/
 
 <!-- Fast Inverse Square Root -->
+
+## Architecture
+
+https://github.com/actix/actix
 
 ## Embedded, kernel and drivers development
 
