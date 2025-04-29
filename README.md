@@ -28,6 +28,8 @@ Macros (Chapter 19.5)
 4) Educative: The Ultimate Guide to Rust Programming
 5) Zero To Mastery: Rust Programming: The Complete Developer's Guide -->
 
+https://rust-lang.guide/intro/index.html
+
 https://www.listen-rs.com/
 
 https://eventhelix.com/rust/
