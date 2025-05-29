@@ -148,6 +148,8 @@ https://swc.rs
 
 https://github.com/tokio-rs/axum
 
+https://book.leptos.dev/getting_started/index.html
+
 ## REPL and tools
 
 https://github.com/google/evcxr
