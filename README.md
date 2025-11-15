@@ -1,5 +1,7 @@
 # 🦀
 
+[](./rust-vibe.jpeg)
+
 <!--
 https://doc.rust-lang.org/std/convert/trait.AsRef.html
 
